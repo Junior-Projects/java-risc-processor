@@ -1,0 +1,16 @@
+gti 5 >> r5;
+gti 1 >> r1;
+set r1 >> 4;
+get 4 >> r2;
+add r1 + r2 >> r2;
+beq r1 = r5 >> 6;
+jmp >> 14;
+bgt r5 > r0 >> 1;
+jmp >> 30;
+sub r5 - r1 >> r5;
+add r3 + r1 >> r3;
+jmp >> 10;
+add r3 + r2 >> r3;
+sub r5 - r1 >> r5;
+jmp >> 10;
+stop;

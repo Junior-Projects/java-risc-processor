@@ -1,0 +1,11 @@
+<h1 style="font-size:150%;">Instruction Guidelines</h1>
+
+<ul>
+    <li><b> add: </b><i>adds the values in the two registers into the destination register. <font color="#ff0000">Input format: src1 - src2 - destination: r followed by integer between 0 and 7</font></i></li> </br>
+    <li><b> sub: </b><i>subtracts the values in the two registers into the destination register. <font color="#ff0000">Input format: src1 - src2 - destination: r followed by integer between 0 and 7</font></i></li> </br>
+    <li><b> get: </b><i>loads the word at the memory address into the register.<font color="#ff0000">Input format: memory word address - src2: r followed by integer between 0 and 7</font></i></li> </br>
+    <li><b> geti: </b><i>loads the constant value into the register.<font color="#ff0000">Input format: constant - src2 (r followed by integer between 0 and 7)</font></i></li> </br>
+    <li><b> set: </b><i>stores the value in the register into the memory address. <font color="#ff0000">Input format: src2 (r followed by integer between 0 and 7) - memory word address: </font></i></li> </br>
+    <li><b> beq: </b><i>compares the values of the 2 registers. If equal, jumps to the instruction address = PC x Address. If not, jumps to the next instruction to be executed. <font color="#ff0000">Input format: src1 - src2 (r followed by integer between 0 and 7) - instruction half-word address </font></i></li> </br>
+    <li><b> bgt: </b><i>compares the values of the 2 registers. If the value of the first is greater than the second, jumps to instruction address =  PC x Address. If not, jumps to the next instruction to be executed. <font color="#ff0000">Input format: src1 - src2 (r followed by integer between 0 and 7) - instruction half-word address </font></i></li> </br>
+    <li><b> jump: </b><i>jumps to the instruction at the instruction address. <font color="#ff0000">Input format: instruction byte address </font></i></li> </br>
