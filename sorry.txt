@@ -1,2 +1,0 @@
-  Hello Doctor, you weren't in the office when Maria came to hand in the hard copy of the report. I'm sorry we couldn't submit in time, i hope that does not affect our grade because we brought the report.
- ﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ Also, all instructions are executing perfectly and we have provided a sample while loop that you had requested (with all instructions including branch). 
